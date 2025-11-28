@@ -1,0 +1,71 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+body {
+  margin: 0;
+  background-color: rgb(107, 27, 42);
+  color: antiquewhite;
+  font-family: monospace;
+  font-size: 48px;
+}
+
+tr{
+    height: 50px;
+    border: 5px solid salmon;
+    padding: 25px;
+    background-color: rgba(63, 27, 107, 0.21);
+}
+th, td {
+    border: 5px solid salmon;
+    padding: 10px;
+    text-align: center; /* Optional: align text to the left */
+}
+table{
+    border: 5px salmon;
+}
+.center-table {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* Sets the container height to 100% of the viewport height */
+    width: 100vw;            
+}
+button{
+    background-color: rgb(255, 197, 58);
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    border:none;
+    cursor: pointer;
+
+    position: fixed;
+    bottom:10%;
+    width:25%;
+    left:25%;
+    padding: 10px 0px;
+  }
+button:hover{
+    background-color:  rgb(255, 226, 157);
+  }
+button:active{
+    background-color:  rgb(209, 174, 92);
+  }
+.button-remove{
+    background-color: rgb(255, 197, 58);
+    font-family: monospace;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    border:none;
+    cursor: pointer;
+
+    position: fixed;
+    bottom:10%;
+    width:25%;
+    left:50%;
+    padding: 10px 0px;
+  }
