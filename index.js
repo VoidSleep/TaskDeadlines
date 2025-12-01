@@ -124,6 +124,6 @@ function removeItem(array, itemToRemove) {
     if (index !== -1) {
         array = array.splice(index, 1);
     }
-    alert(array);
 	console.log("Updated Array: ", array);
 }
+
