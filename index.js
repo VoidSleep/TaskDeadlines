@@ -103,8 +103,8 @@ function removeRow() {
                 else
                     try{
                         table.deleteRow(num);
+                        localStorage.removeItem(deadlineArr[num-1].toLocaleString('en-US',options));
                         removeItem(deadlineArr,deadlineArr[num-1]);
-                        localStorage.removeItem(deadLineDate.toLocaleString('en-US',options));
                         for (let i = num; i < tableSize; i++) {
                             table.rows[i].cells[0].innerHTML = i.toString();
                         }   
@@ -126,4 +126,5 @@ function removeItem(array, itemToRemove) {
     }
 	console.log("Updated Array: ", array);
 }
+
 
